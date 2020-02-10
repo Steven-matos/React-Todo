@@ -1,3 +1,79 @@
-.task.completed {
-   text-decoration: line-through; 
+* {
+   box-sizing: border-box;
 }
+body{ 
+   background: #FFFFFC;
+}
+
+.main-content {
+   text-align: center;
+   background: #D2CD9B;
+   width: 50%;
+   margin: 2rem auto;
+   padding: 1rem 0 4rem 0;
+   -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.26);
+   -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.26);
+   box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.26);
+   border-radius: 10px;
+}
+
+h1 {
+   font-size: 5rem;
+}
+
+h2 {
+   font-size: 3rem;
+   text-decoration: underline;
+
+}
+
+.task {
+   background: white;
+   padding: .1rem 2rem;
+   font-size: 1.2rem;
+   width: 30%;
+   margin: 1rem auto;
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.26);
+   -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.26);
+   box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.26);
+   border-radius: 10px;
+}
+
+.task.completed {
+   text-decoration: line-through;
+   background: tomato;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   width: 35%;
+   margin: 0 auto;
+   align-content: space-between;
+}
+
+input {
+   font-size: 1.5rem;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.btn-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 1.5rem;
+}
+
+button {
+   background:    #ffffff;
+   border:        1px solid #000000;
+   border-radius: 5px;
+   box-shadow:    1px 1px #444444;
+   padding:       8px 20px;
+   color:         #000000;
+   display:       inline-block;
+   font:          normal bold 12px/1 "Calibri", sans-serif;
+   text-align:    center;
+ }
+
