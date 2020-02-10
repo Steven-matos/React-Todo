@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Todo = ({task}) => {
+const Todo = (props) => {
     return (
-        <ul>
-            <li>{task}</li>
-        </ul>
+        <div onClick={() => props.toggleTask(props.task.id)}
+            className={`task${props.task.completed ? ' completed' : ''}`}>
+            <p>{props.task.task}</p>
+        </div>
     );
 };
 
