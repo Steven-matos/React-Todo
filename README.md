@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36b58c98-69dc-4103-8bd8-3d92bb4c335b/deploy-status)](https://app.netlify.com/sites/to-do-2020/deploys)
+
+
 # React-Todo
 
 We're going to practice building a stateful class component with this project. Even though hooks are gaining popularity among react developers, class components are going to be around for a long time. It's imperative that you get use to class components, and feel comfortable working with class components since you'll most likely need to work with them if you are hired to work on a React app.
