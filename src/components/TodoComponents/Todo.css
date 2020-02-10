@@ -1,6 +1,8 @@
 * {
    box-sizing: border-box;
 }
+
+/* Main Content Styling */
 body{ 
    background: #FFFFFC;
 }
@@ -27,6 +29,7 @@ h2 {
 
 }
 
+/* Task Styling */
 .task {
    background: white;
    padding: .1rem 2rem;
@@ -43,6 +46,8 @@ h2 {
    text-decoration: line-through;
    background: tomato;
 }
+
+/* Form Styling */
 
 .form {
    display: flex;
